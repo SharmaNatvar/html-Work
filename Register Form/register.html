@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+</head>
+<body>
+    <h1 align="center"><b>Register</b></h1>
+    <hr><hr>
+    <div>
+        <form>
+            <label><b>Name*:-</b></label>
+            <input type="text" placeholder="First name" required/>
+            <input type="text" placeholder="Last name" required/>
+            <hr/>
+            <label><b>Phone:-</b></label>
+            <select>
+                <option>+91</option>
+                <option>+008</option>
+                <option>+002</option>
+                <option>+44</option>
+                <option>+92</option>
+            </select>
+            <input type="tel" pattern="[0-9]{10}"/>
+            <hr/>
+            <label><b>Email*:-</b></label>
+            <input type="email" placeholder="example@gmail.com" required/><hr/>
+            <label><b>Address*:-</b></label>
+            <textarea rows="2" cols="20" required></textarea>
+            <hr/>
+            <label><b>Gender:-</b></label>
+            <label><input type="radio" name="gender"/>Male</label>
+            <label><input type="radio" name="gender"/>Female</label>
+            <label><input type="radio" name="gender"/>other</label>
+            <br/><br/>
+            <label><b>Profile Photo:-</b></label>
+            <input type="file"/>
+            <br/><br/>
+            <label><b>Birthday:-</b></label>
+            <input type="date"/>
+            <hr/>
+            <label><b>Hobby:-</b></label><br>
+            <input type="checkbox" id="cricket"/>
+            <label for="cricket">Cricket</label><br/>
+            <input type="checkbox" id="traveling"/>
+            <label for="traveling">Traveling</label><br/>
+            <input type="checkbox" id="music"/>
+            <label for="music">Music</label><br/>
+            <input type="checkbox" id="reading"/>
+            <label for="reading">Reading</label>
+            <hr/><hr/>
+            <h2 align="center">Login Details</h2>
+            <hr/><hr/>
+            <label><b>User Name*:-</b></label>
+            <input type="text"  required/>
+            <hr/>
+            <label><b>Password*:-</b></label>
+            <input type="password" required/>
+            <hr/>
+            <label><b>Conform Password*:-</b></label>
+            <input type="password" required/>
+            <hr/><hr/>
+            <input type="submit" value="SUBMIT"/>
+            <input type="reset" value="RESET"/>
+        </form>
+    </div>
+</body>
+</html>
